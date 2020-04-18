@@ -14,10 +14,10 @@ describe("Vampire", function() {
 
     let offspring1, offspring2, offspring3, offspring4;
     beforeEach(() => {
-      offspring1 = new Vampire();
-      offspring2 = new Vampire();
-      offspring3 = new Vampire();
-      offspring4 = new Vampire();
+      offspring1 = new Vampire('1');
+      offspring2 = new Vampire('2');
+      offspring3 = new Vampire('3');
+      offspring4 = new Vampire('4');
 
       rootVampire.addOffspring(offspring1);
       offspring1.addOffspring(offspring2);
