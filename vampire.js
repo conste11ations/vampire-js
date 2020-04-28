@@ -43,7 +43,6 @@ class Vampire {
       return this;
     } else {
       for (const childNode of this.offspring) {
-        childNode.vampireWithName(name);
         const vampWithName = childNode.vampireWithName(name);
         if (vampWithName) {
           return vampWithName;
